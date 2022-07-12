@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Hello Toast"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/tmblToast"
+        android:onClick="ToastClick"
+        android:layout_width="match_parent"
+        android:text="TOAST"
+        android:background="@color/biru"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="match_parent"
+        android:text="0"
+        android:textStyle="bold"
+        android:background="@color/kuning"
+        android:textColor="@color/biru"
+        android:textSize="200dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/tmblCount"
+        android:onClick="CountClick"
+        android:layout_width="match_parent"
+        android:text="Count"
+        android:background="@color/biru"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/putih"
+        android:text="M Ilyas Arman S
+                        A11.2019.11855"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
